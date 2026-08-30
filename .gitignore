@@ -1,0 +1,11 @@
+# Python cache files
+**/__pycache__/
+**/*.pyc
+
+# Virtual Environment (we don't push libraries, they are installed via requirements.txt)
+mlops/venv/
+venv/
+
+# Security: NEVER commit API keys or environment configurations!
+mlops/.env
+.env
